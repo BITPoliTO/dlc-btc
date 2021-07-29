@@ -2,11 +2,7 @@
 
 From [Discreet Log Contracts](https://adiabat.github.io/dlc.pdf) by Thaddeus Dryja. Goal of this repository is to give a educational implementation of the technical note.
 
-Note that this works only with Schnorr signatures. So, given a private key $a$ and a message $m$, the signature is computed as:
-
-$$s=k-h(m,R)a$$
-
-where $h(\cdot,\cdot)$ is a hash function and $R=kG$, whit $k$ random number and $G$ generation point on the elliptic curve.
+Note that this works only with Schnorr signatures. 
 
 ## Scenario
 
