@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+G	schnorr_lib.py	/^G = (0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798,$/;"	v
+Optional	schnorr_lib.py	/^from typing import Tuple, Optional$/;"	i
+Point	schnorr_lib.py	/^Point = Tuple[int, int]$/;"	v
+Tuple	schnorr_lib.py	/^from typing import Tuple, Optional$/;"	i
+a	main.py	/^a = os.urandom(32)$/;"	v
+aint	main.py	/^aint = (int(a, 16) % n)$/;"	v
+b	main.py	/^b = os.urandom(32)$/;"	v
+bint	main.py	/^bint = (int(b, 16) % n)$/;"	v
+bytes_from_int	schnorr_lib.py	/^def bytes_from_int(x: int) -> bytes:$/;"	f
+bytes_from_point	schnorr_lib.py	/^def bytes_from_point(P: Point) -> bytes:$/;"	f
+has_even_y	schnorr_lib.py	/^def has_even_y(P: Point) -> bool:$/;"	f
+has_square_y	schnorr_lib.py	/^def has_square_y(P: Optional[Point]) -> bool:$/;"	f
+hash_sha256	schnorr_lib.py	/^def hash_sha256(b: bytes) -> bytes:$/;"	f
+hashlib	schnorr_lib.py	/^import hashlib$/;"	i
+int_from_bytes	schnorr_lib.py	/^def int_from_bytes(b: bytes) -> int:$/;"	f
+is_infinity	schnorr_lib.py	/^def is_infinity(P: Optional[Point]) -> bool:$/;"	f
+is_square	schnorr_lib.py	/^def is_square(x: int) -> bool:$/;"	f
+lift_x_even_y	schnorr_lib.py	/^def lift_x_even_y(b: bytes) -> Optional[Point]:$/;"	f
+lift_x_square_y	schnorr_lib.py	/^def lift_x_square_y(b: bytes) -> Optional[Point]:$/;"	f
+n	schnorr_lib.py	/^n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141$/;"	v
+os	main.py	/^import os$/;"	i
+p	schnorr_lib.py	/^p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F$/;"	v
+point_add	schnorr_lib.py	/^def point_add(P1: Optional[Point], P2: Optional[Point]) -> Optional[Point]:$/;"	f
+point_mul	schnorr_lib.py	/^def point_mul(P: Optional[Point], n: int) -> Optional[Point]:$/;"	f
+pubkeyA	main.py	/^pubkeyA=pubkeygen$/;"	v
+pubkey_gen_from_hex	schnorr_lib.py	/^def pubkey_gen_from_hex(seckey: hex) -> bytes:$/;"	f
+pubkey_gen_from_int	schnorr_lib.py	/^def pubkey_gen_from_int(seckey: int) -> bytes:$/;"	f
+schnorr_sign	schnorr_lib.py	/^def schnorr_sign(msg: bytes, seckey: bytes, aux_rand: bytes) -> bytes:$/;"	f
+schnorr_verify	schnorr_lib.py	/^def schnorr_verify(msg: bytes, pubkey: bytes, sig: bytes) -> bool:$/;"	f
+tagged_hash	schnorr_lib.py	/^def tagged_hash(tag: str, msg: bytes) -> bytes:$/;"	f
+x	schnorr_lib.py	/^def x(P: Point) -> int:$/;"	f
+xor_bytes	schnorr_lib.py	/^def xor_bytes(b0: bytes, b1: bytes) -> bytes:$/;"	f
+y	schnorr_lib.py	/^def y(P: Point) -> int:$/;"	f
