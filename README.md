@@ -21,3 +21,8 @@ The steps of the protocol (not summarized in the technical note) can be summariz
 1. Alice and Bob then proceed to create a large number of transactions spending the funding output. The output of the multisignature can only be spent once, so **only one of the transactions which make up the contract will ever appear on the blockchain**
     1. Alice and Bob do not yet know which and so multiple transactions need to be signed and stored by both of them
     1. In practice,  parties agree on the contract state but hold variations of the same transaction (same as Lighning Network): each closing transaction is based on a different possible price at closing time
+
+## Files
+
+- `schnorr_lib.py` is the same library of the [Schnorr signature repository](https://github.com/BITPoliTO/schnorr-sig)
+- `main.py` is the main file, a demo of the steps of the discreet logaritm contract described in the mentioned technical note
